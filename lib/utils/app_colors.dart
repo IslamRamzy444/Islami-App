@@ -8,4 +8,5 @@ class AppColors {
   static const Color dotsActiveColor=Color(0xffFFD482);
   static const Color whiteColor=Color(0xFFFFFFFF);
   static const Color shadedBlack=Color(0x99202020);
+  static const Color secondaryWhiteColor=Color(0xFFFEFFE8);
 }

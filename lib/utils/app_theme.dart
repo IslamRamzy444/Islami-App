@@ -7,6 +7,13 @@ class AppTheme {
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       selectedItemColor: AppColors.whiteColor,
       unselectedItemColor:AppColors.blackBackgroundColor,
+    ),
+    appBarTheme: AppBarTheme(
+      backgroundColor: AppColors.blackBackgroundColor,
+      centerTitle: true,
+      iconTheme: IconThemeData(
+        color: AppColors.primaryColor
+      )
     )
   );
 }

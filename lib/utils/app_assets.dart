@@ -15,4 +15,10 @@ class AppAssets {
   static const String sebhaIcon="assets/images/sebha-icon.png";
   static const String radioIcon="assets/images/radio-icon.png";
   static const String timeIcon="assets/images/time-icon.png";
+  static const String searchIcon="assets/images/search-icon.png";
+  static const String mostRecentlyImage="assets/images/most-recently-image.png";
+  static const String suraVector="assets/images/Vector.png";
+  static const String leftCorner="assets/images/left-corner.png";
+  static const rightCorner="assets/images/right-corner.png";
+  static const bottomMosque="assets/images/bottom-mosque.png";
 }
