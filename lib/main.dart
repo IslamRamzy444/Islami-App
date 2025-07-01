@@ -1,8 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:project_1_islami/UI/intro/introduction_screen.dart';
+import 'package:project_1_islami/UI/home/home_screen.dart';
+import 'package:project_1_islami/UI/home/tabs/quran/options.dart';
+import 'package:project_1_islami/UI/home/tabs/quran/sura_details1.dart';
+import 'package:project_1_islami/UI/home/tabs/quran/sura_details2.dart';
+import 'package:project_1_islami/UI/intro/intro_screen.dart';
+import 'package:project_1_islami/providers/most_recently_provider.dart';
+import 'package:project_1_islami/utils/app_theme.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(ChangeNotifierProvider(
+    create: (context) => MostRecentlyProvider(),
+    child: const MyApp())
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -12,10 +22,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: IntroductionScreen.routeName,
+      initialRoute: IntroScreen.routeName,
       routes: {
-        IntroductionScreen.routeName:(context)=>IntroductionScreen()
+        IntroScreen.routeName:(context)=>IntroScreen(),
+        HomeScreen.routeName:(context)=>HomeScreen(),
+        Options.routeName:(context)=>Options(),
+        SuraDetails1.routeName:(context)=>SuraDetails1(),
+        SuraDetails2.routeName:(context)=>SuraDetails2()
       },
+      darkTheme: AppTheme.darkTheme,
+      themeMode:ThemeMode.dark,
     );
   }
 }
