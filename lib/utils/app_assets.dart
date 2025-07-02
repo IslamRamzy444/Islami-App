@@ -19,6 +19,10 @@ class AppAssets {
   static const String mostRecentlyImage="assets/images/most-recently-image.png";
   static const String suraVector="assets/images/Vector.png";
   static const String leftCorner="assets/images/left-corner.png";
-  static const rightCorner="assets/images/right-corner.png";
-  static const bottomMosque="assets/images/bottom-mosque.png";
+  static const String rightCorner="assets/images/right-corner.png";
+  static const String bottomMosque="assets/images/bottom-mosque.png";
+  static const String hadethLeftCorner="assets/images/hadeth-left-corner.png";
+  static const String hadethRightCorner="assets/images/hadeth-right-corner.png";
+  static const String hadethDetailBg="assets/images/hadeth-detail-bg.png";
+  static const String hadethBottomMosque="assets/images/hadeth-bottom-mosque.png";
 }

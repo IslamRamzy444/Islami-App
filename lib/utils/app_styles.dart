@@ -9,6 +9,7 @@ class AppStyles {
   static const TextStyle janna20Black=TextStyle(color: AppColors.blackBackgroundColor,fontSize: 20,fontFamily: "Janna");
   static const TextStyle janna24Black=TextStyle(color: AppColors.blackBackgroundColor,fontSize: 24,fontFamily: "Janna");
   static const TextStyle janna14Black=TextStyle(color: AppColors.blackBackgroundColor,fontFamily: "Janna");
+  static const TextStyle janna16Black=TextStyle(color: AppColors.blackBackgroundColor,fontSize: 16,fontFamily: "Janna");
   static const TextStyle janna20White=TextStyle(color: AppColors.whiteColor,fontSize: 20,fontFamily: "Janna");
   static const TextStyle janna14White=TextStyle(color: AppColors.whiteColor,fontFamily: "Janna");
 }
