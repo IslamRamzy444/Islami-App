@@ -13,4 +13,5 @@ class AppStyles {
   static const TextStyle janna20White=TextStyle(color: AppColors.whiteColor,fontSize: 20,fontFamily: "Janna");
   static const TextStyle janna14White=TextStyle(color: AppColors.whiteColor,fontFamily: "Janna");
   static const TextStyle janna36White=TextStyle(color: AppColors.whiteColor,fontSize: 36,fontFamily: "Janna");
+  static const TextStyle janna16White=TextStyle(color: AppColors.whiteColor,fontSize: 16,fontFamily: "Janna");
 }
