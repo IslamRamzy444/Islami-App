@@ -26,4 +26,9 @@ class AppAssets {
   static const String hadethDetailBg="assets/images/hadeth-detail-bg.png";
   static const String hadethBottomMosque="assets/images/hadeth-bottom-mosque.png";
   static const String sebha="assets/images/Sebha.png";
+  static const String prayerImage="assets/images/prayer-image.png";
+  static const String morningAzkarImage="assets/images/morning-azkar-image.png";
+  static const String eveningAzkarImage="assets/images/evening-azkar-image.png";
+  static const String wakingAzkarImage="assets/images/waking-azkar.png";
+  static const String sleepingAzkarImage="assets/images/sleeping-azkar.png";
 }
