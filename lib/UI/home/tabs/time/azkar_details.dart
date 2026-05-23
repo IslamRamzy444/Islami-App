@@ -27,7 +27,7 @@ class AzkarDetails extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 0.04 * width),
+              padding: EdgeInsets.symmetric(horizontal: 0.032 * width),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

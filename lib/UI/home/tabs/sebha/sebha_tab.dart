@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:project_1_islami/utils/app_assets.dart';
 import 'package:project_1_islami/utils/app_styles.dart';
@@ -69,7 +67,7 @@ class _SebhaTabState extends State<SebhaTab> {
   }
   void rotateSebha(){
     setState(() {
-      rotationAngle+=6*pi/180;
+      rotationAngle+=1;
     });
   }
 }

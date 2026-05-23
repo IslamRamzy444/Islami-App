@@ -40,6 +40,7 @@ class HadethDetail extends StatelessWidget {
               ),
             ),
             Expanded(
+                // ignore: unnecessary_null_comparison
                 child: hadeth==null
                     ? Center(
                         child: CircularProgressIndicator(

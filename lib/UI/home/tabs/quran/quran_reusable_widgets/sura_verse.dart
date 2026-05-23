@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_1_islami/utils/app_colors.dart';
 
+// ignore: must_be_immutable
 class SuraVerse extends StatelessWidget {
   int index;
   String verseContent;

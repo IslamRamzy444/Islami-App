@@ -4,6 +4,7 @@ import 'package:project_1_islami/utils/app_assets.dart';
 import 'package:project_1_islami/utils/app_colors.dart';
 import 'package:project_1_islami/utils/app_styles.dart';
 
+// ignore: must_be_immutable
 class ReciterItem extends StatelessWidget {
   String title;
   ReciterItem({super.key,required this.title});

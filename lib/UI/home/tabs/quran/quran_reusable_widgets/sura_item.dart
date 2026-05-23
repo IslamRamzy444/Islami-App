@@ -3,6 +3,7 @@ import 'package:project_1_islami/UI/home/tabs/quran/quran_resources.dart';
 import 'package:project_1_islami/utils/app_assets.dart';
 import 'package:project_1_islami/utils/app_styles.dart';
 
+// ignore: must_be_immutable
 class SuraItem extends StatelessWidget {
   int suraIndex;
   SuraItem({super.key,required this.suraIndex});
