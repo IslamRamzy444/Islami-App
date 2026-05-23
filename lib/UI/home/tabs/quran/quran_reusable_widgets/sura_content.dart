@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_1_islami/utils/app_styles.dart';
 
+// ignore: must_be_immutable
 class SuraContent extends StatelessWidget {
   String content;
   SuraContent({super.key,required this.content});

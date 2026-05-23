@@ -9,6 +9,7 @@ import 'package:project_1_islami/utils/app_assets.dart';
 import 'package:project_1_islami/utils/app_colors.dart';
 import 'package:project_1_islami/utils/app_styles.dart';
 
+// ignore: must_be_immutable
 class TimeTab extends StatelessWidget {
   TimeTab({super.key});
   List<String> imageNames=[AppAssets.eveningAzkarImage,AppAssets.morningAzkarImage,AppAssets.wakingAzkarImage,AppAssets.sleepingAzkarImage];
@@ -137,7 +138,7 @@ class TimeTab extends StatelessWidget {
                   crossAxisCount: 2,
                   mainAxisSpacing: 0.02*height,
                   crossAxisSpacing: 0.01*width,
-                  childAspectRatio: 0.95
+                  childAspectRatio: 0.6
                 ), 
                 itemCount: imageNames.length,
                 itemBuilder: (context, index) {

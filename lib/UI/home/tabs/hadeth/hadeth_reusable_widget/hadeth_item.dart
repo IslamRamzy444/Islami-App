@@ -6,6 +6,7 @@ import 'package:project_1_islami/utils/app_assets.dart';
 import 'package:project_1_islami/utils/app_colors.dart';
 import 'package:project_1_islami/utils/app_styles.dart';
 
+// ignore: must_be_immutable
 class HadethItem extends StatefulWidget {
   int index;
 
@@ -19,7 +20,6 @@ class _HadethItemState extends State<HadethItem> {
   Hadeth? hadeth;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     loadHadethContent(widget.index);
   }
