@@ -175,7 +175,6 @@ class TimeAzkarResources {
   static List wakingAzkar = totalAzkar["أذكار الاستيقاظ"];
   static List sleepingAzkar = totalAzkar["أذكار النوم"];
 }
-
 ---
 ## What I'd Do Differently Today
 
